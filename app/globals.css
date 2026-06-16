@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9f9f9;
+  --foreground: #14193f;
+  --hero-band-bg: #f2eee7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-page: #f9f9f9;
+  --color-hero: var(--hero-band-bg);
+  --color-navy: #14193f;
+  --color-off-white: #f7f4ef;
+  --color-gold: #d7a95a;
+  --color-gold-mid: #b88934;
+  --color-card: #ffffff;
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-inter);
+  --font-serif: var(--font-inter);
+}
+
+.hero-listing-band {
+  position: relative;
+  isolation: isolate;
+  background-color: var(--hero-band-bg);
+}
+
+.hero-listing-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-color: var(--hero-band-bg);
+  background-image: url("/hero-terrace.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+}
+
+@media (max-width: 1023px) {
+  .hero-listing-band::before {
+    background-image: none;
+  }
+}
+
+.hero-listing-band__inner {
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h1[class],
+[role="heading"][aria-level="1"] {
+  font-weight: 400;
+}
+
+h2,
+h2[class],
+[role="heading"][aria-level="2"] {
+  font-weight: 300;
+}
+
+p,
+p[class],
+section,
+section[class],
+article,
+article[class] {
+  font-weight: 200;
+}
+
+.lora-headings h1,
+.lora-headings [role="heading"][aria-level="1"],
+.lora-headings h2,
+.lora-headings [role="heading"][aria-level="2"] {
+  font-family: var(--font-lora), ui-serif, Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
