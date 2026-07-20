@@ -27,7 +27,7 @@ export default async function HomePage() {
           </div>
         }
       >
-        <PropertySearchFilters properties={properties} />
+        {/* <PropertySearchFilters properties={properties} /> */}
       </Suspense>
     </>
   );

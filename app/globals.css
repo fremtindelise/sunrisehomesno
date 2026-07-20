@@ -25,6 +25,7 @@
   position: relative;
   isolation: isolate;
   background-color: var(--hero-band-bg);
+  height: 400px;
 }
 
 .hero-listing-band::before {
@@ -36,8 +37,9 @@
   background-color: var(--hero-band-bg);
   background-image: url("/hero-terrace.png");
   background-repeat: no-repeat;
-  background-position: right center;
-  background-size: auto 100%;
+  background-position: center;
+  background-size: 100%;
+  opacity: 0.5;
 }
 
 @media (max-width: 1023px) {

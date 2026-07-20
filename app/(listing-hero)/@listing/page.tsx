@@ -18,7 +18,7 @@ export default async function HomeListingParallelPage() {
           </div>
         }
       >
-        <PropertySearchListing properties={properties} />
+        {/* <PropertySearchListing properties={properties} /> */}
       </Suspense>
       <HomeOmOssSection />
       <HomeContactCta />
