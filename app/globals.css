@@ -62,13 +62,13 @@ body {
 h1,
 h1[class],
 [role="heading"][aria-level="1"] {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h2,
 h2[class],
 [role="heading"][aria-level="2"] {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 p,
@@ -77,7 +77,7 @@ section,
 section[class],
 article,
 article[class] {
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .lora-headings h1,
