@@ -16,26 +16,63 @@ export function HomeOmOssSection() {
             >
               Om oss
             </h2>
-            <p className="mt-3 text-lg font-medium text-navy/90 sm:text-xl">
-              Formidling av eiendom på solens kyst
-            </p>
             <div className="mt-8 space-y-5 text-[1.05rem] leading-relaxed text-navy/75 md:mt-8">
               <p>
-                Med 320 soldager i året velger vi å kalle Spanias østkyst
-                nettopp dette.
+                Sunrise Homes er et norsk selskap som bistår nordmenn med å
+                finne den perfekte boligen i Spania gjennom trygg, etablert og
+                anerkjent samarbeidspartner i Costa Blanca Nord, spesielt i
+                områder rundt Albir, Alfaz del Pi, Altea, Benidorm, Finestrat,
+                La Nucia, Polop og nærliggende kyst- og innlandsbyer.
               </p>
               <p>
-                Vi er et norsk selskap som samarbeider med seriøse
-                eiendomsmeglere i Mojácar som tilbyr boliger, samt småbruk og
-                tomter for kjøp. Innehaver av Sunrise Homes har forøvrig hatt
-                egen leilighet i Mojácar siden 2003 og kjenner derfor området
-                meget godt.
+                Likeledes hjelper vi nordmenn med å finne den perfekte boligen
+                gjennom trygg, etablert og anerkjent samarbeidspartner som
+                opererer hovedsakelig langs kysten av Almeria i Sørøst- Spania
+                blant annet i områder rundt Mojacar Playa, San Juan de los
+                Terreros, Vera Playa, samt nærliggende kystnære soner i
+                Mojacar-området.
               </p>
               <p>
-                Vi ønsker norske kunder hjertelig velkommen til dette
-                fantastiske området som omtales som «The Real Spain» og «A Place
-                In The Sun».
+                Sunrise Homes er registrert som foretak i Brønnøysundregistrene,
+                og vår rolle er å være din norske kontaktperson gjennom hele
+                prosessen. Innehaver av Sunrise Homes har hatt egen bolig i
+                Mojácar siden 2003 og kjenner derfor dette området spesielt
+                godt.
               </p>
+              <p className="mt-3 text-lg font-medium text-navy/90 sm:text-xl">
+                Formidling av eiendom på solens kyst
+              </p>
+              <p>
+                Med rundt 320 soldager i året velger vi å kalle våre kystområder
+                i Spania nettopp dette.
+              </p>
+              <p>
+                Vi samarbeider som anført med lokale eiendomsmeglerbyråer i
+                Spania som har lang erfaring og solide internasjonale
+                porteføljer. Når vi formidler en bolig som blir solgt, mottar
+                Sunrise Homes en andel av den lokale eiendomsmeglerbyråets
+                provisjon.
+              </p>
+              <p className="mt-3 text-lg font-medium text-navy/90 sm:text-xl">
+                Vårt mål
+              </p>
+              <p>
+                Å gjøre boligkjøp i Spania trygt, enkelt og oversiktlig for
+                norske kjøpere – uansett om du ser etter feriebolig, investering
+                eller et sted å bo store deler av året. Vi kan også formidle
+                utleieavtale for hel eller delvis finansiering av investeringen
+                din.
+              </p>
+              <p className="mt-3 text-lg font-medium text-navy/90 sm:text-xl">
+                Hvorfor velge oss?
+              </p>
+              <ul>
+                <li>- Norsk kontaktperson</li>
+                <li>- Ingen ekstra kostnader</li>
+                <li>- Tilgang til lokal ekspertise</li>
+                <li>- Personlig oppfølging</li>
+                <li>- Trygg og ryddig prosess</li>
+              </ul>
             </div>
           </div>
         </div>

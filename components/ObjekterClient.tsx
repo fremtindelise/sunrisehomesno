@@ -10,7 +10,7 @@ import { rememberSearchUrl } from "@/components/BackToSearchLink";
 export function ObjekterClient({
   properties,
   title = "Boligobjekter",
-  description = "Utforsk boliger til salgs.",
+  description = "",
   searchBasePath = "/objekter",
 }: {
   properties: Property[];
@@ -82,7 +82,21 @@ export function ObjekterClient({
               bathPlusOptions={bathPlusOptions}
             />
           </div>
+          {omrade === "blanca-nord" ? (
+            <p className="mx-auto mt-6 w-full max-w-7xl px-4 text-navy sm:px-6">
+              Costa Blanca, som betyr «den hvite kysten», strekker seg fra Denia
+              i nord, til Orihuela Costa i sør og har et av Europas beste klima,
+              som er ideelt for utendørsaktiviteter året rundt. I et område på
+              Costa Blanca Nord er vi heldige som er omgitt av svært vakre
+              fjell, noe som resulterer i et enda bedre klima som vi kaller et
+              «mikroklima». Sommertemperaturene varierer mellom 25 °C og 35 °C,
+              mens vintertemperaturene er fra 5 °C til 20 °C, og det er omtrent
+              320 soldager per år.
+            </p>
+          ) : null}
+
         </section>
+
         <section
           id="boliger"
           className="mx-auto w-full max-w-6xl scroll-mt-24 px-4 pb-14 pt-10 sm:px-6 lg:max-w-7xl"
